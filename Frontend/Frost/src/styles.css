@@ -3,15 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    background-image: url("./assets/frost.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
+
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/assets/frost.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
