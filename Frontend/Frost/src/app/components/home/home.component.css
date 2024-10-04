@@ -22,4 +22,6 @@ body {
 
 .login-button {
     margin-right: 20px;
+    border: solid 1px;
+    border-radius: 20px;
 }
