@@ -75,7 +75,39 @@ body {
 }
 
 .login-button {
+    position: relative; 
     margin-right: 20px;
-    border: solid 1px;
+    border: solid 0.5px #D1D5DB; 
     border-radius: 15px;
+    background-color: transparent;
+    color: #fff;
+    padding: 2.5px 2.5px; 
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    transition: letter-spacing 0.3s ease-in-out;
+    
+}
+
+.login-button:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.3));
+    transition: right 0.4s ease;
+    
+}
+
+.login-button:hover {
+    color: #000;
+    letter-spacing: 2px;
+    
+}
+
+.login-button:hover:before {
+    right: 0;
+    transition: right 0.4s ease;
 }
