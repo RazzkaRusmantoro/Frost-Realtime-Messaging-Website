@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    background-image: url("./assets/frost.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
