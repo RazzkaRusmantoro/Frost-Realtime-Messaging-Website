@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { trigger, transition, style, animate } from '@angular/animations';
+import { CommonModule } from '@angular/common';
+import { RouterModule, RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+
 
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule,RouterModule, CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   animations: [

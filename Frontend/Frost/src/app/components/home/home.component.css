@@ -100,16 +100,9 @@ body {
     bottom: 0;
     background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.3));
     transition: right 0.4s ease;
-    
 }
 
 .login-button:hover {
     color: #000;
     letter-spacing: 2px;
-    
-}
-
-.login-button:hover:before {
-    right: 0;
-    transition: right 0.4s ease;
 }
