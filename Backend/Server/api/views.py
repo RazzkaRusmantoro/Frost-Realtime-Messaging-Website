@@ -5,6 +5,7 @@ from .serializers import UserSerializer
 from rest_framework.permissions import IsAuthenticated, AllowAny
 
 # Create your views here.
+
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()    
     serializer_class = UserSerializer
